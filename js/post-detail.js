@@ -65,6 +65,14 @@
     if (window.marked) {
       contentEl.innerHTML = window.marked.parse(md);
       contentEl.classList.add('fade-in', 'fade-in-delay-2');
+
+      // 修复图片路径：Markdown 中的 images/xxx.png 实际在 posts/images/ 下
+      contentEl.querySelectorAll('img').forEach(img => {
+        const src = img.getAttribute('src');
+        if (src && !src.startsWith('http') && !src.startsWith('/')) {
+          img.setAttribute('src', POST_DIR + src);
+        }
+      });
     } else {
       contentEl.innerHTML = `<pre>${md}</pre>`;
     }
