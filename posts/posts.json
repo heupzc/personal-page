@@ -14,6 +14,13 @@
     "excerpt": "从神经网络到大模型，讲清深度学习的核心架构、训练原理和真实应用，机器学习姊妹篇。"
   },
   {
+    "slug": "large-language-models-for-everyone",
+    "title": "一文读懂大模型：从 ChatGPT 到 AI 新时代的全面指南",
+    "date": "2025-04-17",
+    "tags": ["大模型", "AI", "科普"],
+    "excerpt": "讲清大模型的训练原理、主流模型、关键技术（提示工程/RAG/微调/Agent）和真实应用，AI科普三部曲终篇。"
+  },
+  {
     "slug": "frontend-performance-guide",
     "title": "前端性能优化实战指南",
     "date": "2025-01-15",
