@@ -1,5 +1,12 @@
 [
   {
+    "slug": "machine-learning-for-everyone",
+    "title": "一文读懂机器学习：从原理到应用",
+    "date": "2025-04-17",
+    "tags": ["机器学习", "AI", "科普"],
+    "excerpt": "用最通俗的语言讲清机器学习的原理、类型、神经网络和真实应用，面向零基础读者的完整入门指南。"
+  },
+  {
     "slug": "frontend-performance-guide",
     "title": "前端性能优化实战指南",
     "date": "2025-01-15",
